@@ -15,7 +15,6 @@
 - JavaScript (Vanilla JS)
 <h4>Layout Techniques</h4>
 - Flexbox
-- CSS Grid
-<h4>Deployment</h4>
+- CSS Grid<h4>Deployment</h4>
 - GitHub
 - Vercel / Netlify</pre>
