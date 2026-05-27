@@ -5,6 +5,6 @@
 <h3>Phase 1 :<a href="https://sprint-phase1.netlify.app/"> Link🔗</a></h3>
 <image src="phase1.png"></image><hr>
 <h3>Phase 2 :<a href="https://sprint-phase2.netlify.app/"> Link🔗</a></h3>
-<image src=""></image><hr>
+<image src="phase2.png"></image><hr>
 <h3>Phase 3 :<a href="https://sprint-phase3.netlify.app/"> Link🔗</a></h3>
-<image src=""></image><hr>
+<image src="phase3.png"></image><hr>
