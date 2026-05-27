@@ -10,18 +10,12 @@
 <image src="phase3.png"></image><hr>
 
 
-<pre><h4>Frontend</h4>
-- HTML5
+<pre><h4>Frontend</h4>- HTML5
 - CSS3
 - JavaScript (Vanilla JS)
-
 <h4>Layout Techniques</h4>
-
 - Flexbox
 - CSS Grid
-- Media Queries
-
 <h4>Deployment</h4>
-
 - GitHub
 - Vercel / Netlify</pre>
