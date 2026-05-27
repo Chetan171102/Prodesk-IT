@@ -8,3 +8,20 @@
 <image src="phase2.png"></image><hr>
 <h3>Phase 3 :<a href="https://sprint-phase3.netlify.app/" width="1000px"> Link🔗</a></h3>
 <image src="phase3.png"></image><hr>
+
+
+<pre><h4>Frontend</h4>
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+<h4>Layout Techniques</h4>
+
+- Flexbox
+- CSS Grid
+- Media Queries
+
+<h4>Deployment</h4>
+
+- GitHub
+- Vercel / Netlify</pre>
