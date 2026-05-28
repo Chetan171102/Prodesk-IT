@@ -5,9 +5,13 @@
 <h3>Phase 1 - Base MVP: <a href="https://sprint-phase1.netlify.app/"> Link🔗</a></h3>
 <image src="phase1.png" width="1000px"></image><hr>
 <h3>Phase 2 - UI/UX Enhancements: <a href="https://sprint-phase2.netlify.app/"> Link🔗</a></h3>
-<image src="phase2.png" width="1000px"></image><hr>
+<image src="phase2.png" width="1000px"></image>
+<image src="darkphase2.png" width="1000px"></image><hr>
 <h3>Phase 3:<a href="https://sprint-phase3.netlify.app/"> Link🔗</a></h3>
-<image src="phase3.png" width="1000px"></image><hr>
+<image src="phase3.png" width="1000px"></image>\
+<image src="darkphase3.png" width="1000px"></image>
+<hr>
+
 
 
 <pre><h4>Frontend</h4>
