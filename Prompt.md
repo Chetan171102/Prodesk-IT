@@ -7,4 +7,4 @@
 <h2>Sprint 2</h2>
 <h3>Prompt 1 (Chatgpt): Provide me with the alternate free APi for Currency exchange as the link i was provided was empty</h3>
 <h3>Prompt 2 (Chatgpt): How to integrate live currency update api in my file</h3>
-<h3>Prompt 3(Chatgpt): I am getting error while intergrating my Frankfurter how to correct it</h3>
+<h3>Prompt 3 (Chatgpt): I am getting error while intergrating my Frankfurter how to correct it</h3>
