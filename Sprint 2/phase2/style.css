@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.subtitle {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box h2 {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Inputs */
+input {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+/* Buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Clear button */
+.clear-btn {
+  background-color: #e74c3c;
+  margin-bottom: 14px;
+  font-size: 0.85rem;
+  padding: 7px 14px;
+}
+
+.clear-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Delete button inside list */
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 3px 9px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Summary */
+.box p {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+/* Balance danger color */
+.danger {
+  color: red;
+}
+
+/* Expense list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Error message */
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  min-height: 18px;
+}
+
+/* Warning box */
+.warning-box {
+  background-color: #fff3cd;
+  border: 1px solid #f0ad4e;
+  color: #856404;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9rem;
+}
+
+/* Chart canvas */
+canvas {
+  display: block;
+  margin: 0 auto;
+}
