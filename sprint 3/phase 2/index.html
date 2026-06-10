@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="page">
+
+      <!-- Header -->
+      <header>
+        <h1>Dev Detective </h1>
+        <p>Search any GitHub username</p>
+      </header>
+
+      <!-- Search Bar -->
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter a GitHub username..."
+        />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <!-- Loading Spinner-->
+      <div id="loading" class="hidden">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+      </div>
+
+      <!-- Error Message-->
+      <div id="error" class="hidden">
+        <p> User not found. Please try another username.</p>
+      </div>
+
+      <!-- Profile Card-->
+      <div id="profileCard" class="profile-card hidden">
+        <img id="avatar" src="" alt="User Avatar" />
+        <div class="profile-info">
+          <h2 id="name">Name</h2>
+          <p id="bio">Bio goes here</p>
+          <p id="joinDate">Joined: </p>
+          <p id="repoCount"> Repositories: </p>
+          <a id="portfolioLink" href="#" target="_blank">View Portfolio</a>
+        </div>
+      </div>
+
+      <!-- Top 5 Repos Section -->
+      <div id="reposSection" class="repos-section hidden">
+        <h3>Latest Repositories</h3>
+        <ul id="reposList"></ul>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
