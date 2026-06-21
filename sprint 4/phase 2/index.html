@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cover Letter Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Cover Letter Generator</h1>
+  <div class="container">
+
+    <div class="box">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="e.g. Arjun Sharma" />
+
+      <label for="role">Job Role</label>
+      <input type="text" id="role" placeholder="e.g. Frontend Developer" />
+
+      <label for="company">Company Name</label>
+      <input type="text" id="company" placeholder="e.g. Google" />
+
+      <label for="skills">Key Skills</label>
+      <input type="text" id="skills" placeholder="e.g. React, Node.js, CSS" />
+
+      <button id="generateBtn" onclick="generateLetter()">Generate Letter</button>
+    </div>
+
+    <div class="box">
+      <h2>Your Cover Letter</h2>
+      <p id="placeholder-text">Your letter will appear here...</p>
+
+      <div id="loading" style="display:none;">
+        <div class="spinner"></div>
+        <p class="loading-text">Generating your letter...</p>
+      </div>
+
+      <div id="output" style="display:none;">
+        <pre id="letter-text"></pre>
+        <button onclick="copyLetter()">Copy to Clipboard</button>
+      </div>
+
+      <p id="error-text" style="display:none;"></p>
+    </div>
+
+  </div>
+
+  <div id="toast">Copied!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
